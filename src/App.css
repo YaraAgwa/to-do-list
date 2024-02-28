@@ -1,0 +1,68 @@
+body{
+  background-image: url(../photo_2024-02-28_16-26-12.jpg) ;
+  background-size: cover;
+ }
+ .App{
+  border: 2px solid rgb(253, 159, 187);
+  margin :100px 30%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(10, 10, 10);
+ }
+ .App h2{
+  color:rgb(253, 159, 187);
+ }
+ .App li {
+  width: 400px;
+  list-style:"🎀";
+  cursor: pointer;
+  font-size: 22px;
+  color:black;
+  margin: 20px;
+ 
+  
+ }
+ .App input{
+   width: 200px;
+   height: 40px;
+   border-radius:10px;
+   margin: 20px;
+ }
+ .App button{
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  background-color:rgb(253, 159, 187);
+  color:black;
+  border-radius: 5px;
+  border: 0;
+  font-size:25PX;
+ }
+ 
+ .App ul li{
+ 
+ 
+  background-color:rgb(253, 159, 187);
+  overflow-wrap: break-word;
+  border-radius: 5PX;
+ 
+ }
+ .diffstyle{ 
+  text-decoration: line-through;
+ 
+  
+}
+.div4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+span{
+  color:black;
+  background-color:rgb(253, 159, 187);
+  padding: 1px 4px   ;
+  border-radius: 5PX;
+  }
